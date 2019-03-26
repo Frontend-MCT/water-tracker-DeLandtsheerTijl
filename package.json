@@ -10,7 +10,7 @@
     "Tracker",
     "water"
   ],
-  "author": "Martijn Loth",
+  "author": "Tijl De Landtsheer",
   "license": "ISC",
   "devDependencies": {
     "jasmine": "^3.3.1"
@@ -21,7 +21,6 @@
     "autoprefixer": "^9.4.10",
     "browser-sync": "^2.26.3",
 	"cssnano": "^4.1.10",
-	"npm-bomb->(LET OP!)": "^null",
     "gulp": "^4.0.0",
     "gulp-babel": "^8.0.0",
     "gulp-concat": "^2.6.1",

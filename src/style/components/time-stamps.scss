@@ -1,0 +1,20 @@
+.c-time-stamps{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+    height: 3 * 1.5rem; // We tonen enkel drie items uit de lijst
+    margin: 0 0 1.5rem 0;
+    padding: 0; //voor padding ul te verwijderen
+
+    list-style: none;
+    
+    overflow: hidden;
+
+    .c-time-stamp{
+        font-size: 1rem;
+        line-height: 1.5rem; // is ook standaard zo, dit wordt de hoogte
+        text-align: center;
+    }
+}
+

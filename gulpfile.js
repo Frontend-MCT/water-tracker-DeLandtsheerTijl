@@ -20,7 +20,7 @@ const concat = require('gulp-concat');
 // a We willen een development server opzetten
 function browserSync(done) {
 	browsersync.init({
-		open: false,
+		//open: false,
 		server: {
 			baseDir: './dist/',
 			open: false // Niet iedere keer dat nieuwe browser venster 😡

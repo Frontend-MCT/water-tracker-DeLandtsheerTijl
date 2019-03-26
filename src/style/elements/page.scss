@@ -1,6 +1,8 @@
 html,
 body {
-	font: #{$font-size}/#{$line-height} $font-stack;
+    font: #{$font-size}/#{$line-height} $font-stack; // om te plakken: #{$font-size}
+    //font-size: $font-size; line-height: 1.5; font-family: 'Oswald', sans-serif; hetzelfde als hierboven
+    // font: 16px/1.5/Oswald; ook hetzelfde als hierboven
 	background: map-get($neutral-colors, light);
 	-webkit-font-smoothing: antialiased;
 }
